@@ -1,0 +1,8 @@
+{
+  "extends": ["wesbos"],
+  "plugins": ["react", "jsx-a11y", "import"],
+  "rules": {
+    "no-use-before-define": ["error", { "variables": false }],
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }]
+  }
+}

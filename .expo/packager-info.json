@@ -1,0 +1,10 @@
+{
+  "devToolsPort": 19002,
+  "expoServerPort": 19000,
+  "packagerPort": 19001,
+  "packagerPid": 955,
+  "expoServerNgrokUrl": "https://kg-pni.rashcd.myrnproject.exp.direct",
+  "packagerNgrokUrl": "https://packager.kg-pni.rashcd.myrnproject.exp.direct",
+  "ngrokPid": 1326,
+  "webpackServerPort": null
+}
