@@ -1,6 +1,6 @@
 import Actions from '../../actions';
 
-export const getDefaultState = () => null;
+export const getDefaultState = () => '';
 
 function accessToken(state, action) {
   if (typeof state === 'undefined') {
@@ -10,7 +10,7 @@ function accessToken(state, action) {
     case Actions.SET_ACCESS_TOKEN:
       return action.data;
     case Actions.CLEAR_ACCESS_TOKEN:
-      return null;
+      return '';
     default:
       return state;
   }

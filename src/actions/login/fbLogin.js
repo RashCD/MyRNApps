@@ -4,6 +4,8 @@ export const FETCH_FB_AUTH = `${NAME}/FETCH_FB_AUTH`;
 export const FETCH_FB_AUTH_SUCCESS = `${NAME}/FETCH_FB_AUTH_SUCCESS`;
 export const FETCH_FB_AUTH_FAIL = `${NAME}/FETCH_FB_AUTH_FAIL`;
 
+export const getFBAuth = store => store[NAME].fbLogin;
+
 export const fetchFBAuth = () => ({
   type: FETCH_FB_AUTH,
 });
